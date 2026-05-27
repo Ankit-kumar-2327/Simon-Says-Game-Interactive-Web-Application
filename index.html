@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simon Says Game</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <h1>Simon Says Game</h1>
+
+    <div class="controls">
+        <button id="startBtn">Start Game</button>
+
+        <select id="difficulty">
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+        </select>
+
+        <button id="toggleSound">Sound: ON</button>
+    </div>
+
+    <div class="game-container">
+        <div class="color-box green" data-color="green"></div>
+        <div class="color-box red" data-color="red"></div>
+        <div class="color-box yellow" data-color="yellow"></div>
+        <div class="color-box blue" data-color="blue"></div>
+    </div>
+
+    <div class="scoreboard">
+        <p>Score: <span id="score">0</span></p>
+        <p>High Score: <span id="highscore">0</span></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
