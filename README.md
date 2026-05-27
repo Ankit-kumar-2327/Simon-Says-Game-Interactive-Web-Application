@@ -34,4 +34,5 @@ You can toggle sound ON/OFF anytime.
 
 Author:
 Ankit Kumar
+B.TECH, ECE
 IIIT Guwahati.
